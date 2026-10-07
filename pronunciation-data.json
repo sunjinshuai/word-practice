@@ -1,0 +1,1192 @@
+{
+  "a": {
+    "sounds": "ə",
+    "syllables": 1,
+    "stress": 0
+  },
+  "about": {
+    "sounds": "ə · b · aʊ · t",
+    "syllables": 2,
+    "stress": 2
+  },
+  "action": {
+    "sounds": "æ · k · ʃ · ə · n",
+    "syllables": 2,
+    "stress": 1
+  },
+  "actions": {
+    "sounds": "æ · k · ʃ · ə · n · z",
+    "syllables": 2,
+    "stress": 1
+  },
+  "all": {
+    "sounds": "ɔ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "amazing": {
+    "sounds": "ə · m · eɪ · z · ɪ · ŋ",
+    "syllables": 3,
+    "stress": 2
+  },
+  "an": {
+    "sounds": "æ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "and": {
+    "sounds": "ə · n · d",
+    "syllables": 1,
+    "stress": 0
+  },
+  "are": {
+    "sounds": "ɑ · r",
+    "syllables": 1,
+    "stress": 1
+  },
+  "art": {
+    "sounds": "ɑ · r · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "as": {
+    "sounds": "æ · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "at": {
+    "sounds": "æ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "bamboo": {
+    "sounds": "b · æ · m · b · u",
+    "syllables": 2,
+    "stress": 2
+  },
+  "be": {
+    "sounds": "b · i",
+    "syllables": 1,
+    "stress": 1
+  },
+  "beautiful": {
+    "sounds": "b · j · u · t · ə · f · ə · l",
+    "syllables": 3,
+    "stress": 1
+  },
+  "because": {
+    "sounds": "b · ɪ · k · ɔ · z",
+    "syllables": 2,
+    "stress": 2
+  },
+  "bell": {
+    "sounds": "b · ɛ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "big": {
+    "sounds": "b · ɪ · ɡ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "bigger": {
+    "sounds": "b · ɪ · ɡ · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "birds": {
+    "sounds": "b · ɝ · d · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "botanical": {
+    "sounds": "b · ə · t · æ · n · ɪ · k · ə · l",
+    "syllables": 4,
+    "stress": 2
+  },
+  "brush": {
+    "sounds": "b · r · ʌ · ʃ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "call": {
+    "sounds": "k · ɔ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "card": {
+    "sounds": "k · ɑ · r · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "change": {
+    "sounds": "tʃ · eɪ · n · dʒ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "chinese": {
+    "sounds": "tʃ · aɪ · n · i · z",
+    "syllables": 2,
+    "stress": 2
+  },
+  "close": {
+    "sounds": "k · l · oʊ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "club": {
+    "sounds": "k · l · ʌ · b",
+    "syllables": 1,
+    "stress": 1
+  },
+  "clubs": {
+    "sounds": "k · l · ʌ · b · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "colours": {
+    "sounds": "k · ʌ · l · ɚ · z",
+    "syllables": 2,
+    "stress": 1
+  },
+  "come": {
+    "sounds": "k · ʌ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "cone": {
+    "sounds": "k · oʊ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "control": {
+    "sounds": "k · ə · n · t · r · oʊ · l",
+    "syllables": 2,
+    "stress": 2
+  },
+  "covered": {
+    "sounds": "k · ʌ · v · ɚ · d",
+    "syllables": 2,
+    "stress": 1
+  },
+  "cream": {
+    "sounds": "k · r · i · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "dance": {
+    "sounds": "d · æ · n · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "days": {
+    "sounds": "d · eɪ · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "difficult": {
+    "sounds": "d · ɪ · f · ə · k · ə · l · t",
+    "syllables": 3,
+    "stress": 1
+  },
+  "do": {
+    "sounds": "d · u",
+    "syllables": 1,
+    "stress": 1
+  },
+  "don't": {
+    "sounds": "d · oʊ · n · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "down": {
+    "sounds": "d · aʊ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "dragon": {
+    "sounds": "d · r · æ · ɡ · ə · n",
+    "syllables": 2,
+    "stress": 1
+  },
+  "draw": {
+    "sounds": "d · r · ɔ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "easier": {
+    "sounds": "i · z · i · ɚ",
+    "syllables": 3,
+    "stress": 1
+  },
+  "easy": {
+    "sounds": "i · z · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "eating": {
+    "sounds": "i · t · ɪ · ŋ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "every": {
+    "sounds": "ɛ · v · ɚ · i",
+    "syllables": 3,
+    "stress": 1
+  },
+  "exactly": {
+    "sounds": "ɪ · ɡ · z · æ · k · t · l · i",
+    "syllables": 3,
+    "stress": 2
+  },
+  "excellent": {
+    "sounds": "ɛ · k · s · ə · l · ə · n · t",
+    "syllables": 3,
+    "stress": 1
+  },
+  "exciting": {
+    "sounds": "ɪ · k · s · aɪ · t · ɪ · ŋ",
+    "syllables": 3,
+    "stress": 2
+  },
+  "face": {
+    "sounds": "f · eɪ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "faces": {
+    "sounds": "f · eɪ · s · ə · z",
+    "syllables": 2,
+    "stress": 1
+  },
+  "fall": {
+    "sounds": "f · ɔ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "family": {
+    "sounds": "f · æ · m · ə · l · i",
+    "syllables": 3,
+    "stress": 1
+  },
+  "fast": {
+    "sounds": "f · æ · s · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "favourite": {
+    "sounds": "f · eɪ · v · ɚ · ɪ · t",
+    "syllables": 3,
+    "stress": 1
+  },
+  "field": {
+    "sounds": "f · i · l · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "find": {
+    "sounds": "f · aɪ · n · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "flower": {
+    "sounds": "f · l · aʊ · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "fly": {
+    "sounds": "f · l · aɪ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "flying": {
+    "sounds": "f · l · aɪ · ɪ · ŋ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "for": {
+    "sounds": "f · ɔ · r",
+    "syllables": 1,
+    "stress": 1
+  },
+  "four": {
+    "sounds": "f · ɔ · r",
+    "syllables": 1,
+    "stress": 1
+  },
+  "friends": {
+    "sounds": "f · r · ɛ · n · d · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "from": {
+    "sounds": "f · r · ʌ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "fruits": {
+    "sounds": "f · r · u · t · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "fu": {
+    "sounds": "f · u",
+    "syllables": 1,
+    "stress": 1
+  },
+  "fun": {
+    "sounds": "f · ʌ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "game": {
+    "sounds": "ɡ · eɪ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "games": {
+    "sounds": "ɡ · eɪ · m · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "garden": {
+    "sounds": "ɡ · ɑ · r · d · ə · n",
+    "syllables": 2,
+    "stress": 1
+  },
+  "gardening": {
+    "sounds": "ɡ · ɑ · r · d · ə · n · ɪ · ŋ",
+    "syllables": 3,
+    "stress": 1
+  },
+  "gardens": {
+    "sounds": "ɡ · ɑ · r · d · ə · n · z",
+    "syllables": 2,
+    "stress": 1
+  },
+  "get": {
+    "sounds": "ɡ · ɛ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "give": {
+    "sounds": "ɡ · ɪ · v",
+    "syllables": 1,
+    "stress": 1
+  },
+  "glory": {
+    "sounds": "ɡ · l · ɔ · r · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "go": {
+    "sounds": "ɡ · oʊ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "going": {
+    "sounds": "ɡ · oʊ · ɪ · ŋ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "good": {
+    "sounds": "ɡ · ʊ · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "grades": {
+    "sounds": "ɡ · r · eɪ · d · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "grass": {
+    "sounds": "ɡ · r · æ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "grow": {
+    "sounds": "ɡ · r · oʊ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "hard": {
+    "sounds": "h · ɑ · r · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "has": {
+    "sounds": "h · æ · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "have": {
+    "sounds": "h · æ · v",
+    "syllables": 1,
+    "stress": 1
+  },
+  "head": {
+    "sounds": "h · ɛ · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "help": {
+    "sounds": "h · ɛ · l · p",
+    "syllables": 1,
+    "stress": 1
+  },
+  "hold": {
+    "sounds": "h · oʊ · l · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "hopscotch": {
+    "sounds": "h · ɑ · p · s · k · ɑ · tʃ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "how": {
+    "sounds": "h · aʊ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "i": {
+    "sounds": "aɪ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "i'm": {
+    "sounds": "aɪ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "ice": {
+    "sounds": "aɪ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "idea": {
+    "sounds": "aɪ · d · i · ə",
+    "syllables": 3,
+    "stress": 2
+  },
+  "in": {
+    "sounds": "ɪ · n",
+    "syllables": 1,
+    "stress": 0
+  },
+  "interesting": {
+    "sounds": "ɪ · n · t · r · ə · s · t · ɪ · ŋ",
+    "syllables": 3,
+    "stress": 1
+  },
+  "into": {
+    "sounds": "ɪ · n · t · u",
+    "syllables": 2,
+    "stress": 1
+  },
+  "is": {
+    "sounds": "ɪ · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "it": {
+    "sounds": "ɪ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "it's": {
+    "sounds": "ɪ · t · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "join": {
+    "sounds": "dʒ · ɔɪ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "keep": {
+    "sounds": "k · i · p",
+    "syllables": 1,
+    "stress": 1
+  },
+  "kinds": {
+    "sounds": "k · aɪ · n · d · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "kite": {
+    "sounds": "k · aɪ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "kung": {
+    "sounds": "k · ʌ · ŋ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "leaf": {
+    "sounds": "l · i · f",
+    "syllables": 1,
+    "stress": 1
+  },
+  "learn": {
+    "sounds": "l · ɝ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "learns": {
+    "sounds": "l · ɝ · n · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "leaves": {
+    "sounds": "l · i · v · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "life": {
+    "sounds": "l · aɪ · f",
+    "syllables": 1,
+    "stress": 1
+  },
+  "like": {
+    "sounds": "l · aɪ · k",
+    "syllables": 1,
+    "stress": 1
+  },
+  "lily": {
+    "sounds": "l · ɪ · l · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "lion": {
+    "sounds": "l · aɪ · ə · n",
+    "syllables": 2,
+    "stress": 1
+  },
+  "little": {
+    "sounds": "l · ɪ · t · ə · l",
+    "syllables": 2,
+    "stress": 1
+  },
+  "long": {
+    "sounds": "l · ɔ · ŋ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "look": {
+    "sounds": "l · ʊ · k",
+    "syllables": 1,
+    "stress": 1
+  },
+  "looks": {
+    "sounds": "l · ʊ · k · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "lose": {
+    "sounds": "l · u · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "lots": {
+    "sounds": "l · ɑ · t · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "many": {
+    "sounds": "m · ɛ · n · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "me": {
+    "sounds": "m · i",
+    "syllables": 1,
+    "stress": 1
+  },
+  "meat": {
+    "sounds": "m · i · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "moment": {
+    "sounds": "m · oʊ · m · ə · n · t",
+    "syllables": 2,
+    "stress": 1
+  },
+  "moments": {
+    "sounds": "m · oʊ · m · ə · n · t · s",
+    "syllables": 2,
+    "stress": 1
+  },
+  "more": {
+    "sounds": "m · ɔ · r",
+    "syllables": 1,
+    "stress": 1
+  },
+  "morning": {
+    "sounds": "m · ɔ · r · n · ɪ · ŋ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "mother": {
+    "sounds": "m · ʌ · ð · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "mouth": {
+    "sounds": "m · aʊ · θ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "move": {
+    "sounds": "m · u · v",
+    "syllables": 1,
+    "stress": 1
+  },
+  "mud": {
+    "sounds": "m · ʌ · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "my": {
+    "sounds": "m · aɪ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "need": {
+    "sounds": "n · i · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "nice": {
+    "sounds": "n · aɪ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "night": {
+    "sounds": "n · aɪ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "noble": {
+    "sounds": "n · oʊ · b · ə · l",
+    "syllables": 2,
+    "stress": 1
+  },
+  "not": {
+    "sounds": "n · ɑ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "o'clock": {
+    "sounds": "ə · k · l · ɑ · k",
+    "syllables": 2,
+    "stress": 2
+  },
+  "of": {
+    "sounds": "ʌ · v",
+    "syllables": 1,
+    "stress": 1
+  },
+  "on": {
+    "sounds": "ɑ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "one": {
+    "sounds": "w · ʌ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "open": {
+    "sounds": "oʊ · p · ə · n",
+    "syllables": 2,
+    "stress": 1
+  },
+  "other": {
+    "sounds": "ʌ · ð · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "our": {
+    "sounds": "aʊ · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "out": {
+    "sounds": "aʊ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "over": {
+    "sounds": "oʊ · v · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "pace": {
+    "sounds": "p · eɪ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "party": {
+    "sounds": "p · ɑ · r · t · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "photo": {
+    "sounds": "f · oʊ · t · oʊ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "photos": {
+    "sounds": "f · oʊ · t · oʊ · z",
+    "syllables": 2,
+    "stress": 1
+  },
+  "pine": {
+    "sounds": "p · aɪ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "place": {
+    "sounds": "p · l · eɪ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "plant": {
+    "sounds": "p · l · æ · n · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "plants": {
+    "sounds": "p · l · æ · n · t · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "play": {
+    "sounds": "p · l · eɪ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "poster": {
+    "sounds": "p · oʊ · s · t · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "pot": {
+    "sounds": "p · ɑ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "prize": {
+    "sounds": "p · r · aɪ · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "protect": {
+    "sounds": "p · r · ə · t · ɛ · k · t",
+    "syllables": 2,
+    "stress": 2
+  },
+  "rainy": {
+    "sounds": "r · eɪ · n · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "react": {
+    "sounds": "r · i · æ · k · t",
+    "syllables": 2,
+    "stress": 2
+  },
+  "reading": {
+    "sounds": "r · i · d · ɪ · ŋ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "reporter": {
+    "sounds": "r · ɪ · p · ɔ · r · t · ɚ",
+    "syllables": 3,
+    "stress": 2
+  },
+  "root": {
+    "sounds": "r · u · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "same": {
+    "sounds": "s · eɪ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "sandbag": {
+    "sounds": "s · æ · n · d · b · æ · ɡ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "school": {
+    "sounds": "s · k · u · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "seed": {
+    "sounds": "s · i · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "seeds": {
+    "sounds": "s · i · d · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "september": {
+    "sounds": "s · ɛ · p · t · ɛ · m · b · ɚ",
+    "syllables": 3,
+    "stress": 2
+  },
+  "short": {
+    "sounds": "ʃ · ɔ · r · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "sit": {
+    "sounds": "s · ɪ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "sky": {
+    "sounds": "s · k · aɪ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "slow": {
+    "sounds": "s · l · oʊ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "smiles": {
+    "sounds": "s · m · aɪ · l · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "soil": {
+    "sounds": "s · ɔɪ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "some": {
+    "sounds": "s · ʌ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "special": {
+    "sounds": "s · p · ɛ · ʃ · ə · l",
+    "syllables": 2,
+    "stress": 1
+  },
+  "sports": {
+    "sounds": "s · p · ɔ · r · t · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "stamp": {
+    "sounds": "s · t · æ · m · p",
+    "syllables": 1,
+    "stress": 1
+  },
+  "stand": {
+    "sounds": "s · t · æ · n · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "stay": {
+    "sounds": "s · t · eɪ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "stem": {
+    "sounds": "s · t · ɛ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "stems": {
+    "sounds": "s · t · ɛ · m · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "storytelling": {
+    "sounds": "s · t · ɔ · r · i · t · ɛ · l · ɪ · ŋ",
+    "syllables": 4,
+    "stress": 1
+  },
+  "straight": {
+    "sounds": "s · t · r · eɪ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "strength": {
+    "sounds": "s · t · r · ɛ · ŋ · k · θ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "style": {
+    "sounds": "s · t · aɪ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "styles": {
+    "sounds": "s · t · aɪ · l · z",
+    "syllables": 1,
+    "stress": 1
+  },
+  "sun": {
+    "sounds": "s · ʌ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "sunflower": {
+    "sounds": "s · ʌ · n · f · l · aʊ · ɚ",
+    "syllables": 3,
+    "stress": 1
+  },
+  "sunlight": {
+    "sounds": "s · ʌ · n · l · aɪ · t",
+    "syllables": 2,
+    "stress": 1
+  },
+  "sunny": {
+    "sounds": "s · ʌ · n · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "sweet": {
+    "sounds": "s · w · i · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "take": {
+    "sounds": "t · eɪ · k",
+    "syllables": 1,
+    "stress": 1
+  },
+  "team": {
+    "sounds": "t · i · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "teeth": {
+    "sounds": "t · i · θ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "tell": {
+    "sounds": "t · ɛ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "than": {
+    "sounds": "ð · æ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "the": {
+    "sounds": "ð · ə",
+    "syllables": 1,
+    "stress": 0
+  },
+  "their": {
+    "sounds": "ð · ɛ · r",
+    "syllables": 1,
+    "stress": 1
+  },
+  "them": {
+    "sounds": "ð · ɛ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "thin": {
+    "sounds": "θ · ɪ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "this": {
+    "sounds": "ð · ɪ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "time": {
+    "sounds": "t · aɪ · m",
+    "syllables": 1,
+    "stress": 1
+  },
+  "tip": {
+    "sounds": "t · ɪ · p",
+    "syllables": 1,
+    "stress": 1
+  },
+  "to": {
+    "sounds": "t · u",
+    "syllables": 1,
+    "stress": 1
+  },
+  "traditional": {
+    "sounds": "t · r · ə · d · ɪ · ʃ · ə · n · ə · l",
+    "syllables": 4,
+    "stress": 2
+  },
+  "train": {
+    "sounds": "t · r · eɪ · n",
+    "syllables": 1,
+    "stress": 1
+  },
+  "tree": {
+    "sounds": "t · r · i",
+    "syllables": 1,
+    "stress": 1
+  },
+  "try": {
+    "sounds": "t · r · aɪ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "tug": {
+    "sounds": "t · ʌ · ɡ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "tulip": {
+    "sounds": "t · u · l · ə · p",
+    "syllables": 2,
+    "stress": 1
+  },
+  "twelve": {
+    "sounds": "t · w · ɛ · l · v",
+    "syllables": 1,
+    "stress": 1
+  },
+  "up": {
+    "sounds": "ʌ · p",
+    "syllables": 1,
+    "stress": 1
+  },
+  "us": {
+    "sounds": "ʌ · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "use": {
+    "sounds": "j · u · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "very": {
+    "sounds": "v · ɛ · r · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "view": {
+    "sounds": "v · j · u",
+    "syllables": 1,
+    "stress": 1
+  },
+  "wall": {
+    "sounds": "w · ɔ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "want": {
+    "sounds": "w · ɑ · n · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "war": {
+    "sounds": "w · ɔ · r",
+    "syllables": 1,
+    "stress": 1
+  },
+  "water": {
+    "sounds": "w · ɔ · t · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "we": {
+    "sounds": "w · i",
+    "syllables": 1,
+    "stress": 1
+  },
+  "weather": {
+    "sounds": "w · ɛ · ð · ɚ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "well": {
+    "sounds": "w · ɛ · l",
+    "syllables": 1,
+    "stress": 1
+  },
+  "what": {
+    "sounds": "w · ʌ · t",
+    "syllables": 1,
+    "stress": 1
+  },
+  "what's": {
+    "sounds": "w · ʌ · t · s",
+    "syllables": 1,
+    "stress": 1
+  },
+  "which": {
+    "sounds": "w · ɪ · tʃ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "wind": {
+    "sounds": "w · aɪ · n · d",
+    "syllables": 1,
+    "stress": 1
+  },
+  "windy": {
+    "sounds": "w · ɪ · n · d · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "with": {
+    "sounds": "w · ɪ · ð",
+    "syllables": 1,
+    "stress": 1
+  },
+  "work": {
+    "sounds": "w · ɝ · k",
+    "syllables": 1,
+    "stress": 1
+  },
+  "worry": {
+    "sounds": "w · ɝ · i",
+    "syllables": 2,
+    "stress": 1
+  },
+  "year": {
+    "sounds": "j · ɪ · r",
+    "syllables": 1,
+    "stress": 1
+  },
+  "yellow": {
+    "sounds": "j · ɛ · l · oʊ",
+    "syllables": 2,
+    "stress": 1
+  },
+  "yo": {
+    "sounds": "j · oʊ",
+    "syllables": 1,
+    "stress": 1
+  },
+  "you": {
+    "sounds": "j · u",
+    "syllables": 1,
+    "stress": 1
+  },
+  "your": {
+    "sounds": "j · ɔ · r",
+    "syllables": 1,
+    "stress": 1
+  }
+}
