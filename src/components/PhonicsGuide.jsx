@@ -1,20 +1,19 @@
 import { useState } from "react";
-import { pronunciationData, syllableModels } from "../data/content";
+import {
+  analyzePhonics,
+  cutsFor,
+  splitAt,
+  compareSplit,
+} from "../domain/phonics";
 function PhonicsWord({ word, onRead }) {
   const [cuts, setCuts] = useState([]),
     [hint, setHint] = useState(""),
     [reference, setReference] = useState(false);
-  const data = pronunciationData[word],
-    model = syllableModels[word];
-  let start = 0;
-  const parts = [...cuts]
-    .sort((a, b) => a - b)
-    .map((at) => {
-      const part = word.slice(start, at);
-      start = at;
-      return part;
-    });
-  parts.push(word.slice(start));
+  const analysis = analyzePhonics(word),
+    data = analysis.data,
+    model = analysis.reference;
+  const parts = splitAt(word, cuts);
+  const [checked, setChecked] = useState(false);
   return (
     <article className="phonics-word">
       <h3>
@@ -29,7 +28,7 @@ function PhonicsWord({ word, onRead }) {
         </button>
       </h3>
       <div className="phonics-step">
-        <h4>① 找元音 · a e i o u</h4>
+        <h4>① 找元音核 · 数发音，不数字母</h4>
         <div className="vowel-line">
           {[...word].map((c, i) => (
             <span key={i} className={/[aeiou]/.test(c) ? "vowel" : ""}>
@@ -39,15 +38,16 @@ function PhonicsWord({ word, onRead }) {
         </div>
       </div>
       <div className="phonics-step">
-        <h4>② 判断音节 · 再从后往前切</h4>
+        <h4>② 一靠后，二分手 · 从后往前检查</h4>
         <p className="hint">
-          {data?.syllables === 1
-            ? "这个词只有一个读音音节，整体保留；元音组合和词尾静音 e 不单独切开。"
+          {analysis.syllables === 1
+            ? analysis.rule
             : hint ||
-              "从右往左检查，点击字母间的切分线。元音组合、静音 e 和辅音组合要一起考虑。"}
+              analysis.rule ||
+              "先听读确认音节，再从右往左试切；不根据元音字母数量直接判定。"}
         </p>
         <div className="cut-line">
-          {data?.syllables === 1 ? (
+          {analysis.syllables === 1 ? (
             <span>{word}</span>
           ) : (
             [...word].map((c, i) => (
@@ -56,8 +56,10 @@ function PhonicsWord({ word, onRead }) {
                 {i < word.length - 1 && (
                   <button
                     type="button"
+                    aria-label={`在 ${word} 第 ${i + 1} 个字母后切分`}
                     aria-pressed={cuts.includes(i + 1)}
                     onClick={() => {
+                      setChecked(false);
                       if (cuts.includes(i + 1))
                         setCuts(cuts.filter((at) => at !== i + 1));
                       else if (cuts.length && i + 1 >= Math.min(...cuts))
@@ -72,10 +74,51 @@ function PhonicsWord({ word, onRead }) {
             ))
           )}
         </div>
-        {data?.syllables !== 1 && (
+        {analysis.syllables !== 1 && (
           <p className="cut-result">{parts.join(" · ")}</p>
         )}
-        {model && (
+        {analysis.note && <p className="hint">{analysis.note}</p>}
+        {analysis.syllables !== 1 && (
+          <div className="phonics-actions">
+            {analysis.candidate && (
+              <button
+                type="button"
+                className="text-btn"
+                onClick={() => {
+                  setCuts(cutsFor(analysis.candidate));
+                  setChecked(false);
+                  setHint("已按口诀试切，仍需听读校正。");
+                }}
+              >
+                按口诀试切
+              </button>
+            )}
+            <button
+              type="button"
+              className="text-btn"
+              onClick={() => setChecked(true)}
+            >
+              对照检查
+            </button>
+            <button
+              type="button"
+              className="text-btn"
+              onClick={() => {
+                setCuts([]);
+                setChecked(false);
+                setHint("");
+              }}
+            >
+              重新切分
+            </button>
+          </div>
+        )}
+        {checked && (
+          <p className="hint" role="status">
+            {compareSplit(analysis, cuts).text}
+          </p>
+        )}
+        {model && analysis.syllables !== 1 && (
           <>
             <button
               type="button"
@@ -89,11 +132,12 @@ function PhonicsWord({ word, onRead }) {
         )}
       </div>
       <div className="phonics-step">
-        <h4>③ 定读音 · 对照读音再拼</h4>
+        <h4>③ 逐块拼读 · 对照词典定读音</h4>
         <p className="phoneme-line">
-          {data
-            ? "美式音素：" + data.sounds
-            : "此词暂无内置词典读音，请结合课本或老师示范。"}
+          {analysis.ipa ||
+            (data
+              ? "美式音素：" + data.sounds
+              : "此词暂无内置词典读音，请结合课本或老师示范。")}
         </p>
         {data && (
           <p className="hint">
@@ -110,7 +154,7 @@ export function PhonicsGuide({ text, onRead }) {
     <section id="phonics-guide" hidden={!text} aria-label="错词三步拼读">
       <h3>用三步，把这个词记牢</h3>
       <p className="hint">
-        先找元音，再从后往前切，最后听读确认。元音字母的个数不一定等于读音音节数。
+        一靠后，二分手；单音的组合通常不拆，辅音连缀要看情况。切分帮助拼读，完整发音以词典和听读为准。
       </p>
       <div id="phonics-content">
         {(text?.toLowerCase().match(/[a-z]+(?:'[a-z]+)?/g) || []).map(

@@ -48,3 +48,31 @@ test("historical events restore reviews and explicit mistake removal", () => {
     mistakes: {},
   });
 });
+
+import {
+  analyzePhonics,
+  compareSplit,
+  cutsFor,
+} from "../src/domain/phonics.js";
+test("teaching splits keep single syllables intact and distinguish references from trials", () => {
+  assert.deepEqual(analyzePhonics("more").reference, ["more"]);
+  assert.equal(analyzePhonics("more").candidate, null);
+  for (const [word, parts] of [
+    ["letter", ["let", "ter"]],
+    ["student", ["stu", "dent"]],
+    ["lettuce", ["let", "tuce"]],
+  ]) {
+    const result = analyzePhonics(word);
+    assert.deepEqual(result.reference, parts);
+    assert.deepEqual(result.candidate, parts);
+    assert.equal(compareSplit(result, cutsFor(parts)).matches, true);
+    assert.equal(compareSplit(result, [1]).matches, false);
+  }
+  assert.match(analyzePhonics("lettuce").note, /ɪs/);
+  assert.equal(compareSplit(analyzePhonics("unknownword"), [3]).matches, null);
+  assert.equal(
+    analyzePhonics("interesting").reference,
+    null,
+    "hide reference when segment count conflicts with the dictionary",
+  );
+});
