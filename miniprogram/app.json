@@ -1,0 +1,12 @@
+{
+  "pages": ["pages/practice/index", "pages/history/index"],
+  "window": {
+    "navigationBarTitleText": "单词练习簿",
+    "navigationBarBackgroundColor": "#222733",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#222733"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

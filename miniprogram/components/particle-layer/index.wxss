@@ -1,0 +1,24 @@
+:host,
+.layer,
+.particle {
+  pointer-events: none;
+}
+.layer {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+.particle {
+  position: absolute;
+  width: 10rpx;
+  height: 18rpx;
+  top: -30rpx;
+  animation: fall 1.8s ease-in forwards;
+}
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(720deg);
+    opacity: 0;
+  }
+}

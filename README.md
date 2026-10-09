@@ -64,3 +64,7 @@ npm run test:e2e
 ## GitHub Pages
 
 已准备 `.github/workflows/pages.yml`，构建后发布 dist。首次发布 React 版本前，需将仓库 Settings → Pages → Source 从分支发布切换成 **GitHub Actions**。之后推送 main 自动构建发布；直接发布源码目录无法运行 React 页面。
+
+## 微信原生小程序
+
+独立工程位于 `miniprogram/`，使用 WXML、WXSS、JavaScript 和微信 API。导入微信开发者工具前请阅读 [小程序说明](miniprogram/README.md)。原生版本不依赖网页版构建。

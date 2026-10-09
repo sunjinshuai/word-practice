@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "setup-panel": "/components/setup-panel/index",
+    "letter-grid": "/components/letter-grid/index",
+    "particle-layer": "/components/particle-layer/index",
+    "phonics-panel": "/components/phonics-panel/index"
+  }
+}
