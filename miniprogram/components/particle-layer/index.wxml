@@ -1,1 +1,0 @@
-<view class="layer"><view wx:for="{{particles}}" wx:key="id" class="particle" style="left:{{item.left}}%;background:{{item.color}};animation-delay:{{item.delay}}s"></view></view>

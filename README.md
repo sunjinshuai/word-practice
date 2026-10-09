@@ -67,4 +67,4 @@ npm run test:e2e
 
 ## 微信原生小程序
 
-独立工程位于 `miniprogram/`，使用 WXML、WXSS、JavaScript 和微信 API。导入微信开发者工具前请阅读 [小程序说明](miniprogram/README.md)。原生版本不依赖网页版构建。
+原生版本已拆为独立仓库：[learnbloom-ai/word-practice-miniprogram](https://github.com/learnbloom-ai/word-practice-miniprogram)，使用 WXML、WXSS、JavaScript 和微信 API，不依赖网页版构建。

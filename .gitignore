@@ -5,3 +5,6 @@
 node_modules/
 dist/
 test-results/
+
+# Native mini program is maintained in its own repository.
+/miniprogram/
