@@ -45,8 +45,12 @@ export function PracticeCard({
         </button>
         <small>Aria 美式英语</small>
       </div>
-      <p id="speech-status" role="status">
-        {audio.status}
+      <p
+        id="speech-status"
+        role="status"
+        hidden={!audio.status || audio.status === "朗读中…"}
+      >
+        {audio.status === "朗读中…" ? "" : audio.status}
       </p>
       <form
         id="form"
@@ -55,8 +59,12 @@ export function PracticeCard({
           if (answer.trim()) finish(accepts(item, answer, direction), answer);
         }}
       >
-        <label id="answer-label" htmlFor="answer">
-          {direction === "en" ? "每格填一个字母" : "写出对应的中文"}
+        <label
+          id="answer-label"
+          htmlFor="answer"
+          className={direction === "en" ? "sr-only" : undefined}
+        >
+          {direction === "en" ? "填写英文拼写" : "写出对应的中文"}
         </label>
         <p id="word-warning" hidden />
         {direction === "en" ? (

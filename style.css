@@ -82,3 +82,5 @@ button,.setup-segments label{touch-action:manipulation}
  #answer{font-size:16px}
 }
 .learning-drawers{width:100%;margin:30px auto;max-width:900px}.practice-focus .learning-drawers .mistakes-drawer{display:block}.learning-drawers>details{margin:16px 0}.word-info .completed-pos{position:static;transform:none}.word-info{position:relative}body.practice-focus .experience-tools{position:absolute}#answer-label{display:block;text-align:center}
+
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
