@@ -109,12 +109,14 @@ export default function App() {
             wrong={session?.wrong || 0}
           />
         </section>
-        <LearningDrawers
-          items={items}
-          learning={learning}
-          settings={settings}
-          onRetry={() => practice.start({ ...settings, mode: "mistakes" })}
-        />
+        {!item && (
+          <LearningDrawers
+            items={items}
+            learning={learning}
+            settings={settings}
+            onRetry={() => practice.start({ ...settings, mode: "mistakes" })}
+          />
+        )}
       </main>
       <SetupDialog
         key={setup ? "open" : "closed"}
