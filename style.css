@@ -60,3 +60,24 @@
 .letter-word:has(.completed-pos){position:relative;margin-top:24px}.completed-pos{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);white-space:nowrap;font-size:12px;line-height:1.5;background:#34443e;color:var(--green);padding:3px 9px;border-radius:6px}
 
 #celebration{position:fixed;inset:0;width:100%;height:100dvh;overflow:hidden;z-index:100;pointer-events:none;contain:strict}#celebration i{position:absolute;pointer-events:none} @media(prefers-reduced-motion:reduce){#celebration{display:none}}
+
+/* Embedded WebView: safe areas, touch targets and keyboard-sized viewport. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+button,.setup-segments label{touch-action:manipulation}
+#setup-dialog,#account-dialog{box-sizing:border-box;max-height:calc(var(--app-height,100dvh) - 32px);overscroll-behavior:contain}
+.setup-segments{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(auto-fit,minmax(100px,1fr))}
+@media(max-width:760px){
+ .practice-focus main{min-height:var(--app-height,100dvh);justify-content:flex-start;padding:calc(68px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(24px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+ .practice-focus .focus-toolbar{top:calc(8px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));gap:8px}
+ .practice-focus .experience-tools{top:calc(8px + env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px))}
+ .practice-focus .focus-toolbar button,.practice-focus .experience-tools #sound-toggle{min-height:44px;padding:8px;font-size:12px}
+ button{min-height:44px}.practice-focus .letter-word input{height:44px}
+ .setup-segments{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .setup-segments span{font-size:14px;min-height:48px}
+ #setup-dialog,#account-dialog{width:calc(100% - 24px);padding:20px 16px}
+ .setup-actions{position:sticky;bottom:-20px;background:#2a303e;padding:12px 0;margin-top:12px}
+ .practice-focus h2#prompt{font-size:clamp(26px,7vw,40px);overflow-wrap:anywhere}
+ .progress-caption{flex-wrap:wrap}.reading-tools{margin-bottom:16px}
+ .practice-focus .stats{padding:16px 0;gap:8px}.practice-focus .stats span{font-size:11px}
+ #answer{font-size:16px}
+}

@@ -107,3 +107,7 @@ $('restart').onclick=openSetup;
 renderUnit();start();openSetup();
 window.learningCloud?.attach({snapshot:()=>({reviews:structuredClone(reviews),mistakes:{...mistakes}}),pause:()=>{stopReading();clearTimeout(advanceTimer);advanceTimer=null;if(judged){$('next').hidden=false;}},restore:state=>{reviews=state.reviews;mistakes=state.mistakes;lastMistakes={...mistakes};renderReviews();renderMistakes();}});
 }
+
+function updateAppViewport(){document.documentElement.style.setProperty('--app-height',(window.visualViewport?.height||window.innerHeight)+'px')}
+updateAppViewport();window.addEventListener('resize',updateAppViewport);window.visualViewport?.addEventListener('resize',updateAppViewport);
+document.addEventListener('focusin',event=>{if(event.target.matches('.letter-word input,#answer'))setTimeout(()=>{if(document.activeElement===event.target)event.target.scrollIntoView({block:'nearest',inline:'nearest'})},250)});
